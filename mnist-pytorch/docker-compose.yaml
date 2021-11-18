@@ -3,7 +3,7 @@ services:
   client:
     environment:
       - GET_HOSTS_FROM=dns
-    image: "scaleoutsystems/mnist-client-pytorch:latest"
+    image: "esn-mnist-client:latest"
     build:
       context: .
     working_dir: /app

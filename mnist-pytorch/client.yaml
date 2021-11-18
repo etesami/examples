@@ -1,6 +1,6 @@
-This is an example file! Please replace with downloading a file from the reducer!
 network_id: reducer-network
 controller:
-    discover_host: reducer
+    discover_host: fedn-reducer
     discover_port: 8090
     token: reducer_token
+    checksum: 40d6b8944649c3356433eb3b80eff771
